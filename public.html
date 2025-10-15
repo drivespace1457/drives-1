@@ -4,27 +4,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <link rel="stylesheet" href="public.css" >
-        <title> 練習用網站 </title>
+        <title> 進修部常用網站連結 </title>
  
     </head>
     <body>
         <div id="title-box">
-            <h3 id="title">這是標題</h3>
+            <h3 id="title">進修部常用網站連結</h3>
         </div>
         <div id="list">
             <div id="option" class="divOne" 
-
+            onclick="window.location.href = 'http://soce.jp.fju.edu.tw/article.jsp?articleID=21';"
             onmouseup="option1(this)"
-            onmousedown="option2(this),optionOne(this)">選項1</div>
+            onmousedown="option2(this)">日文系進修部課表</div>
             <div id="option"
+            onclick="window.location.href = 'https://sis.fju.edu.tw/#/';"
             onmouseup="option1(this)"
-            onmousedown="option2(this)">選項2</div>
+            onmousedown="option2(this)">輔大學生資訊平台</div>
             <div id="option"
+            onclick="window.location.href = 'https://course.fju.edu.tw/aboutFju.jsp?labelID=4';"
             onmouseup="option1(this)"
-            onmousedown="option2(this)">選項3</div>
+            onmousedown="option2(this)">輔大選課時程表</div>
             <div id="option"
+            onclick="window.location.href = 'http://estu.fju.edu.tw/fjucourse/ava_form.asp';"
             onmouseup="option1(this)"
-            onmousedown="option2(this)">選項4</div>
+            onmousedown="option2(this)">輔大開課資料查詢</div>
         </div>
         <script>
             function option1(elem){
@@ -32,9 +35,6 @@
             }
             function option2(elem){
                 elem.style.color="black";
-            }
-            function optionOne(elem){
-                elem.innerHTML="目前沒東西";
             }
         </script>
     </body>
