@@ -25,6 +25,10 @@ body{
     display: flex;
     justify-content: center;
 }
+#list2{
+    display: flex;
+    justify-content: center;
+}
 
 #option{
     border-style: solid;
@@ -57,5 +61,4 @@ body{
         width: 45%;
     }
     
-
 }
