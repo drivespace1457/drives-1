@@ -1,4 +1,5 @@
 body{
+    background-image: url('fjcu.png');
     background-color:rgb(244, 244, 244);
     opacity: 0.8;
 }
@@ -56,4 +57,5 @@ body{
         width: 45%;
     }
     
+
 }
