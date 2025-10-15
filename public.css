@@ -63,6 +63,9 @@ body{
     
 }
 @media (max-width:500px) {
+    #list{
+        flex-wrap: wrap;
+    }
     #title{
         font-size: 30px;
     }
@@ -70,4 +73,5 @@ body{
         width: 45%;
     }
     
+
 }
