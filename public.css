@@ -54,6 +54,7 @@ body{
 
 
 #author{
+    margin: 0 0;
     color: black;
     position: absolute;
     right: 0;
@@ -92,4 +93,5 @@ body{
     }
     
 }
+
 
