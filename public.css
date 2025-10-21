@@ -43,6 +43,15 @@ body{
     text-align: center;
 
 }
+#qr{
+    margin: 10px auto;
+    text-align: center;
+}
+#qrcode{
+    border-style: solid;
+    border-width: 5px;
+}
+
 
 #author{
     color: black;
@@ -83,5 +92,4 @@ body{
     }
     
 }
-
 
